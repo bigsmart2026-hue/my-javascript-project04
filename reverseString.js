@@ -1,5 +1,5 @@
-function reverseString (bigSmart) {
-    return bigSmart.split("").reverse().join("");
+function reverseString (str) {
+    return str.split("").reverse().join("");
 }
 console.log(reverseString("hello"));
-console.log(reverseString("Lagos"));
+console.log(reverseString("bigsmart"));
